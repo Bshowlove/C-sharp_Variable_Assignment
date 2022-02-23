@@ -22,9 +22,11 @@ class Program
         Console.WriteLine("Enter a string value");
         string c = Console.ReadLine();
 
-
+        //Print the sum of I plus your int variable
         Console.WriteLine(i + a);
+        //Print the sum of d plus your double variable to a scale of one decimal place
         Console.WriteLine(d + b);
+        //Concatenate s with the string
         Console.WriteLine(s + c);
 
     }
